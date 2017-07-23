@@ -1,0 +1,130 @@
+@function rem($px) {
+  @return $px / 32 + rem
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+header {
+  height: rem(75);
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  position: relative;
+  #hd_fh {
+    font-size: rem(30);
+    color: #303030;
+    position: absolute;
+    left: rem(10);
+    top: rem(23);
+  }
+  #title {
+    font-size: rem(30);
+    line-height: rem(75);
+    color: #303030;
+  }
+  #zc {
+    font-size: rem(25);
+    color: #ffffff;
+    float: right;
+    line-height: rem(75);
+    padding-right: rem(25);
+  }
+}
+
+.body {
+  //position: relative;
+}
+
+.login {
+  padding: rem(50);
+  padding-top: rem(105);
+
+  .row {
+    width: 100%;
+    padding: rem(26) 0;
+    border-bottom: 1px solid #ff9412;
+    i {
+      font-size: rem(31);
+      color: #ff9412;
+    }
+    input {
+      font-size: rem(31);
+      padding-left: rem(10);
+      color: #b7b5b9;
+    }
+    span {
+      font-size: rem(30);
+    }
+    #login {
+      width: 100%;
+      height: rem(86);
+      font-size: rem(29);
+      border-radius: rem(43);
+      border: 0px;
+      background: #ffc830;
+      color: #fff;
+    }
+  }
+  .sub {
+    border-bottom: 0;
+    padding-top: rem(59);
+  }
+  .row:first-child {
+    border: 0;
+  }
+}
+
+.yz {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .5);
+  display: none;
+  .yzm {
+    overflow: hidden;
+    width: rem(450);
+    height: rem(231);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    padding-top: rem(15);
+    margin-top: - rem(246);
+    margin-left: - rem(225);
+    background-color: #fff;
+    border-radius: rem(22);
+    text-align: center;
+    font-size: rem(25);
+    line-height: rem(41);
+    div {
+      font-size: rem(29);
+      line-height: rem(66);
+    }
+    span {
+      display: block;
+    }
+
+    #btn {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background-color: #ffd974;
+      width: 100%;
+      span {
+        display: inline-block;
+        width: 49%;
+        height: rem(66);
+        background-color: #ffd974;
+        color: #fff;
+      }
+    }
+
+  }
+}
+
+

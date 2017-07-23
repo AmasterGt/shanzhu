@@ -1,0 +1,51 @@
+@function rem($px) {
+  @return $px / 32 + rem
+}
+
+header {
+  height: rem(75);
+  width: 100%;
+  background: #ffac2c;
+  text-align: center;
+  position: relative;
+  #hd_fh{
+    font-size: rem(30);
+    color: #fff;
+    position: absolute;
+    left: rem(10);
+    top:rem(23);
+  }
+}
+
+#title {
+  font-size: rem(30);
+  line-height: rem(75);
+  color: #fff;
+}
+#content{
+    width: 100%;
+    .conte-top{
+        width: 100%;
+        margin-top: rem(68);
+        margin-bottom: rem(55);
+        text-align: center;
+        img{
+            width: rem(310);
+            height: rem(310);
+        }
+    }
+    .conte-cont{
+        text-align: center;
+        color: #a2a0a1;
+        font-size: rem(24);
+    }
+    .conte-foot{
+        text-align: center;
+        font-size: rem(24);
+        color:#a2a0a1;
+        margin-top:rem(32);
+        a{
+            color: #09adea;
+        }
+    }
+}

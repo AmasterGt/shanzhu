@@ -1,0 +1,72 @@
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: ''; }
+
+header {
+  height: 2.34375rem;
+  width: 100%;
+  background: linear-gradient(#ef7b00, #ffac2c);
+  text-align: center;
+  position: relative; }
+  header #hd_fh {
+    font-size: 0.9375rem;
+    color: #fff;
+    position: absolute;
+    left: 0.3125rem;
+    top: 0.71875rem; }
+  header #title {
+    font-size: 0.9375rem;
+    line-height: 2.34375rem;
+    color: #fff; }
+  header #zc {
+    font-size: 0.78125rem;
+    color: #ffffff;
+    float: right;
+    line-height: 2.34375rem;
+    padding-right: 0.78125rem; }
+
+.logo {
+  margin-top: -1px;
+  padding: 1.4375rem 0 1.625rem;
+  background: #ffac2c; }
+  .logo #logo {
+    display: block;
+    margin: 0 auto;
+    width: 8.75rem; }
+
+.login {
+  padding: 1.5625rem;
+  padding-top: 2.875rem; }
+  .login .row {
+    width: 100%;
+    padding: 0.8125rem 0;
+    border-bottom: 1px solid #dddddd; }
+    .login .row i {
+      font-size: 0.96875rem;
+      color: #dddddd; }
+    .login .row input {
+      font-size: 0.96875rem;
+      padding-left: 0.3125rem; }
+    .login .row #login {
+      width: 100%;
+      height: 2.6875rem;
+      font-size: 0.90625rem;
+      border-radius: 1.34375rem;
+      border: 0px;
+      background: #ffd974;
+      color: #fff; }
+  .login .sub {
+    border-bottom: 0;
+    padding-top: 1.84375rem; }
+  .login .forgtet {
+    padding: 0;
+    border-bottom: 0;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+    .login .forgtet span {
+      line-height: 2.34375rem;
+      font-size: 0.78125rem;
+      color: #ff9412; }

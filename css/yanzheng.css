@@ -1,0 +1,106 @@
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: ''; }
+
+header {
+  height: 2.34375rem;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  position: relative; }
+  header #hd_fh {
+    font-size: 0.9375rem;
+    color: #303030;
+    position: absolute;
+    left: 0.3125rem;
+    top: 0.71875rem; }
+  header #title {
+    font-size: 0.9375rem;
+    line-height: 2.34375rem;
+    color: #303030; }
+  header #zc {
+    font-size: 0.78125rem;
+    color: #ffffff;
+    float: right;
+    line-height: 2.34375rem;
+    padding-right: 0.78125rem; }
+
+.login {
+  padding: 1.5625rem;
+  padding-top: 3.28125rem; }
+  .login .row {
+    width: 100%;
+    padding: 0.8125rem 0;
+    border-bottom: 1px solid #ff9412;
+    position: relative; }
+    .login .row i {
+      font-size: 0.96875rem;
+      color: #ff9412; }
+    .login .row input {
+      font-size: 0.96875rem;
+      padding-left: 0.3125rem;
+      color: #b7b5b9; }
+    .login .row span {
+      font-size: 0.9375rem; }
+    .login .row #login {
+      width: 100%;
+      height: 2.6875rem;
+      font-size: 0.90625rem;
+      border-radius: 1.34375rem;
+      border: 0px;
+      background: #ffc830;
+      color: #fff; }
+  .login .sub {
+    border-bottom: 0;
+    padding-top: 1.84375rem; }
+  .login .row:first-child {
+    border: 0; }
+
+/*.yz {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .3);
+  .yzm {
+    overflow: hidden;
+    width: rem(450);
+    height: rem(231);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    padding-top: rem(15);
+    margin-top: - rem(246);
+    margin-left: - rem(225);
+    background-color: #fff;
+    border-radius: rem(22);
+    text-align: center;
+    font-size: rem(25);
+    line-height: rem(41);
+    div {
+      font-size: rem(29);
+      line-height: rem(66);
+    }
+    span {
+      display: block;
+    }
+
+    #btn {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background-color: #ffd974;
+      width: 100%;
+      span {
+        display: inline-block;
+        width: 49%;
+        height: rem(66);
+        background-color: #ffd974;
+        color: #fff;
+      }
+    }
+
+  }
+}*/

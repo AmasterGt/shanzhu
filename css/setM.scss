@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+@function rem($px) {
+  @return $px / 32 + rem
+}
+
+header {
+  height: rem(75);
+  width: 100%;
+  background: #ffac2c;
+  text-align: center;
+  position: relative;
+  #hd_fh{
+    font-size: rem(30);
+    color: #fff;
+    position: absolute;
+    left: rem(10);
+    top:rem(23);
+  }
+}
+
+#title {
+  font-size: rem(30);
+  line-height: rem(75);
+  color: #fff;
+}
+
+main{
+    .s_guan{
+        background-color: #f5f5f5;
+        height:rem(74);
+        p{
+            font-size: rem(24);
+            color: #8c8c8c;
+            line-height: rem(74);
+            text-align: center;
+        }
+    }
+    .s_erweima{
+        padding:0  rem(28);
+     
+        .s_PLUS{
+            line-height: rem(88);
+            a{
+                color: #f77343;
+                font-size: rem(35);
+            }
+        }
+        .s_bei{
+               background-color: #facd89;
+               border-radius: 5px;
+               padding-bottom: rem(10);
+           span{
+               >img{
+                   height: rem(20);
+               }
+           }
+           p{
+               padding: 0 rem(28);
+               line-height: rem(52);
+               font-size: rem(26);
+               color:#f77343 ;
+           }
+        }
+        .s_ma{
+            img{
+                width: rem(284);
+                 margin: rem(70) auto;
+                 display: block
+            }
+        }
+    }
+}

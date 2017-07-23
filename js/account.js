@@ -1,0 +1,17 @@
+$(function(){
+	$('#title').click(function(){
+		$('.zhezhao').show();		
+	})
+	$('.shou_1').click(function(){
+		$('.zhezhao').hide();
+	})
+	$('.shou_2').click(function(){
+		$('.zhezhao').hide();
+	})
+	$('.shou_3').click(function(){
+		$('.zhezhao').hide();
+	})
+	$('.shou_4').click(function(){
+		$('.zhezhao').hide();
+	})
+})

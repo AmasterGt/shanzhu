@@ -1,0 +1,41 @@
+header {
+  height: 2.34375rem;
+  width: 100%;
+  background: #ffac2c;
+  text-align: center;
+  position: relative; }
+  header #hd_fh {
+    font-size: 0.9375rem;
+    color: #fff;
+    position: absolute;
+    left: 0.3125rem;
+    top: 0.71875rem; }
+
+#title {
+  font-size: 0.9375rem;
+  line-height: 2.34375rem;
+  color: #fff; }
+
+#content {
+  width: 100%; }
+  #content .conte-top {
+    width: 100%;
+    margin-top: 2.125rem;
+    margin-bottom: 1.71875rem;
+    text-align: center; }
+    #content .conte-top img {
+      width: 9.6875rem;
+      height: 9.6875rem; }
+  #content .conte-cont {
+    text-align: center;
+    color: #a2a0a1;
+    font-size: 0.75rem; }
+  #content .conte-foot {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #a2a0a1;
+    margin-top: 1rem; }
+    #content .conte-foot a {
+      color: #09adea; }
+
+/*# sourceMappingURL=app-news.css.map */

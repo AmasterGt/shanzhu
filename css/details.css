@@ -1,0 +1,425 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+.details {
+  background: #fff; }
+  .details header {
+    height: 2.34375rem;
+    width: 100%;
+    background: #ffac2c;
+    text-align: center;
+    position: relative; }
+    .details header #hd_fh {
+      font-size: 0.9375rem;
+      color: #fff;
+      position: absolute;
+      left: 0.3125rem;
+      top: 0.71875rem; }
+  .details #title {
+    font-size: 0.9375rem;
+    line-height: 2.34375rem;
+    color: #fff; }
+  .details .game_side {
+    width: 100%;
+    background: #fff; }
+    .details .game_side .game {
+      width: 18.375rem;
+      margin: 0 auto;
+      padding: 1.1875rem 0rem 1.0625rem 0.3125rem;
+      display: flex; }
+      .details .game_side .game .game_logo img {
+        width: 3.4375rem;
+        height: 3.4375rem; }
+      .details .game_side .game .game_content {
+        margin-left: 1rem;
+        line-height: 1.5625rem; }
+        .details .game_side .game .game_content p:nth-child(1) {
+          font-size: 1rem;
+          color: #fd4c00; }
+          .details .game_side .game .game_content p:nth-child(1) i {
+            font-style: normal;
+            font-size: 0.6875rem;
+            margin-left: 0.625rem;
+            color: #9a9a9a; }
+        .details .game_side .game .game_content p:nth-child(2) {
+          font-size: 0.6875rem;
+          color: #9a9a9a; }
+  .details .main_side {
+    width: 100%;
+    background: #f5f5f5; }
+    .details .main_side .main {
+      width: 18.375rem;
+      margin: 0 auto;
+      display: flex;
+      padding: 1rem 0 0.875rem 0; }
+      .details .main_side .main .message {
+        width: 9.0625rem; }
+        .details .main_side .main .message p {
+          padding: 0;
+          margin: 0; }
+        .details .main_side .main .message p:nth-child(1) {
+          font-size: 0.75rem;
+          color: #9a9a9a; }
+        .details .main_side .main .message p:nth-child(2) {
+          font-size: 1.125rem;
+          margin: 0.625rem 0; }
+        .details .main_side .main .message p:nth-child(3) {
+          font-size: 0.75rem;
+          color: #9a9a9a; }
+        .details .main_side .main .message p:nth-child(4) {
+          font-size: 1.0625rem;
+          margin: 0.625rem 0 1.25rem 0; }
+        .details .main_side .main .message a {
+          width: 7.5rem;
+          height: 2rem;
+          background: #fa5a2a;
+          display: block;
+          text-align: center;
+          line-height: 2rem;
+          color: #fff;
+          font-size: 1rem;
+          border-radius: 0.3125rem; }
+      .details .main_side .main .shan {
+        width: 9.6875rem; }
+        .details .main_side .main .shan .shanliang {
+          padding-left: 0.625rem;
+          border-left: 2px solid #e0e0e0;
+          margin-bottom: 0.625rem; }
+          .details .main_side .main .shan .shanliang p:nth-child(1) {
+            font-size: 0.75rem;
+            margin-bottom: 0.625rem;
+            color: #9a9a9a; }
+          .details .main_side .main .shan .shanliang p:nth-child(2) {
+            font-size: 1.125rem; }
+        .details .main_side .main .shan .time {
+          padding-left: 0.625rem;
+          border-left: 2px solid #e0e0e0;
+          margin-bottom: 1.25rem; }
+          .details .main_side .main .shan .time p:nth-child(1) {
+            font-size: 0.75rem;
+            margin-bottom: 0.625rem;
+            color: #9a9a9a; }
+          .details .main_side .main .shan .time p:nth-child(2) {
+            font-size: 1.0625rem; }
+        .details .main_side .main .shan a {
+          width: 7.5rem;
+          height: 2rem;
+          background: #ffac2c;
+          display: block;
+          text-align: center;
+          line-height: 2rem;
+          color: #fff;
+          font-size: 1rem;
+          border-radius: 0.3125rem; }
+  .details .pic_side {
+    width: 100%;
+    padding-top: 1.125rem; }
+    .details .pic_side .pic {
+      width: 18.375rem;
+      margin: 0 auto; }
+      .details .pic_side .pic img {
+        width: 100%;
+        height: auto; }
+  .details .footer_side {
+    width: 100%;
+    padding: 0.9375rem 0 0.625rem 0; }
+    .details .footer_side .footer {
+      width: 18.375rem;
+      margin: 0 auto;
+      background: #fce1b6;
+      border-radius: 0.5rem;
+      line-height: 1.5625rem;
+      padding-left: 1.1875rem;
+      font-size: 0.75rem;
+      color: #fe853a;
+      position: relative; }
+      .details .footer_side .footer span {
+        position: absolute;
+        left: 0;
+        top: 0.3125rem; }
+        .details .footer_side .footer span img {
+          width: 1.9375rem;
+          height: 0.8125rem; }
+      .details .footer_side .footer p:nth-child(1) {
+        padding-left: 1rem; }
+
+body {
+  background: #f5f5f5; }
+
+.pay .header {
+  width: 100%;
+  background: #fa5a2a; }
+  .pay .header header {
+    height: 2.34375rem;
+    text-align: center;
+    position: relative; }
+    .pay .header header #hd_fh {
+      font-size: 0.9375rem;
+      color: rgba(255, 255, 255, 0.9);
+      position: absolute;
+      left: 0.3125rem;
+      top: 0.71875rem; }
+  .pay .header #title {
+    font-size: 0.9375rem;
+    line-height: 2.34375rem;
+    color: rgba(255, 255, 255, 0.8); }
+  .pay .header p:nth-child(2) {
+    width: 100%;
+    text-align: center; }
+    .pay .header p:nth-child(2) img {
+      width: 3.125rem;
+      height: 3.125rem; }
+  .pay .header p:nth-child(3) {
+    padding: 0.625rem 0;
+    font-size: 0.75rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8); }
+.pay .pay_xuan {
+  width: 100%;
+  height: 1.8125rem;
+  background: #f5f5f5;
+  border-bottom: 1px solid #dedede;
+  line-height: 1.8125rem;
+  padding-left: 0.75rem;
+  font-size: 0.75rem;
+  color: #888888; }
+.pay .menu {
+  width: 100%; }
+  .pay .menu p {
+    width: 100%;
+    height: 2.5625rem;
+    display: flex;
+    padding: 0.5rem 0.5rem 0.375rem 0.5rem;
+    border-bottom: 1px solid #e1e1e1;
+    justify-content: space-between;
+    line-height: 1.6875rem;
+    background: #fff; }
+    .pay .menu p span:nth-child(1) {
+      display: block;
+      display: flex; }
+      .pay .menu p span:nth-child(1) input {
+        margin-top: 0.5rem; }
+      .pay .menu p span:nth-child(1) i {
+        font-style: normal; }
+      .pay .menu p span:nth-child(1) i:nth-child(2) {
+        width: 1.625rem;
+        height: 1.625rem;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 0.875rem;
+        background: #ffac2c;
+        display: block;
+        text-align: center;
+        line-height: 1.625rem;
+        margin: 0 0.375rem 0 0.375rem;
+        border-radius: 0.1875rem; }
+      .pay .menu p span:nth-child(1) i:nth-child(3) {
+        font-size: 0.8125rem; }
+    .pay .menu p span:nth-child(2) {
+      display: block; }
+      .pay .menu p span:nth-child(2) i {
+        font-style: normal; }
+      .pay .menu p span:nth-child(2) select {
+        border: none;
+        outline: none; }
+  .pay .menu p:nth-child(2) span:nth-child(1) i:nth-child(2) {
+    background: #fa5a2a; }
+  .pay .menu p:nth-child(3) span:nth-child(1) i:nth-child(2) {
+    background: #03a9f5; }
+  .pay .menu p:nth-child(4) span:nth-child(1) i:nth-child(2) {
+    background: #02d064; }
+.pay .pay_button {
+  width: 100%;
+  padding: 0.8125rem 0.65625rem 0 0.65625rem; }
+  .pay .pay_button p {
+    width: 17.8125rem;
+    height: 1.9375rem;
+    border: 1px dashed #fa693c;
+    font-size: 0.8125rem;
+    color: #fa693c;
+    text-align: center;
+    line-height: 1.9375rem;
+    margin: 0 auto;
+    margin-bottom: 0.9375rem; }
+  .pay .pay_button #pay {
+    display: block;
+    width: 100%;
+    height: 1.9375rem;
+    text-align: center;
+    line-height: 1.9375rem;
+    color: #fff;
+    font-size: 0.8125rem;
+    border-radius: 0.1875rem;
+    background: #fed555; }
+.pay .mtk {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  display: none; }
+  .pay .mtk .cg {
+    border-radius: 0.625rem;
+    position: absolute;
+    top: 10.6875rem;
+    left: 2.96875rem;
+    background: white;
+    width: 14.0625rem;
+    height: 7.625rem; }
+    .pay .mtk .cg .p1 {
+      padding-top: 2.75rem;
+      font-size: 0.8125rem;
+      text-align: center; }
+    .pay .mtk .cg .tiao {
+      position: absolute;
+      bottom: 0;
+      width: 14.0625rem;
+      height: 2.0625rem;
+      line-height: 2.0625rem;
+      background: #fed555;
+      color: white;
+      text-align: center;
+      border-bottom-left-radius: 0.625rem;
+      border-bottom-right-radius: 0.625rem; }
+
+.balance header {
+  height: 2.34375rem;
+  width: 100%;
+  background: #f85a2b;
+  text-align: center;
+  position: relative; }
+  .balance header #hd_fh {
+    font-size: 0.9375rem;
+    color: #fff;
+    position: absolute;
+    left: 0.3125rem;
+    top: 0.71875rem; }
+.balance #title {
+  font-size: 0.9375rem;
+  line-height: 2.34375rem;
+  color: #fff; }
+.balance .yue {
+  width: 20rem;
+  background: #fa5a2a; }
+  .balance .yue .yue_s {
+    width: 20rem;
+    display: flex;
+    padding-top: 0.625rem; }
+    .balance .yue .yue_s .s_1 {
+      border-radius: 50%;
+      border: 0.125rem solid orange;
+      color: white;
+      font-size: 1rem;
+      width: 2.625rem;
+      height: 2.625rem;
+      text-align: center;
+      line-height: 2.625rem;
+      margin-left: 4.6875rem; }
+    .balance .yue .yue_s .s_2 {
+      padding: 0rem 0.625rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .balance .yue .yue_s .s_2 .s_2_1 {
+        color: #fcc1b7;
+        font-size: 0.6875rem; }
+      .balance .yue .yue_s .s_2 .s_2_2 img {
+        width: 3.71875rem; }
+    .balance .yue .yue_s .s_3 {
+      border-radius: 50%;
+      border: 0.125rem solid white;
+      color: white;
+      background: orange;
+      font-size: 1rem;
+      width: 2.625rem;
+      height: 2.625rem;
+      text-align: center;
+      line-height: 2.625rem; }
+  .balance .yue .yue_x {
+    width: 20rem; }
+    .balance .yue .yue_x p {
+      font-size: 0.8125rem;
+      color: white;
+      text-align: center;
+      padding-top: 0.8125rem;
+      padding-bottom: 0.625rem; }
+.balance .content {
+  width: 20rem; }
+  .balance .content .con_1 {
+    padding-left: 0.75rem;
+    height: 2.3125rem;
+    line-height: 2.3125rem;
+    background: #F5F5F5;
+    color: gray;
+    font-size: 0.8125rem;
+    border-bottom: 0.03125rem solid #F0F0F0; }
+  .balance .content .con_2 {
+    padding-left: 0.75rem;
+    height: 2.3125rem;
+    line-height: 2.3125rem;
+    background: white;
+    font-size: 0.8125rem;
+    border-bottom: 0.03125rem solid #F0F0F0; }
+    .balance .content .con_2 input {
+      padding-left: 1.0625rem;
+      font-size: 0.6875rem; }
+  .balance .content .con_3 {
+    padding-left: 0.75rem;
+    height: 2.3125rem;
+    line-height: 2.3125rem;
+    font-size: 0.8125rem;
+    background: white;
+    border-bottom: 0.03125rem solid #F0F0F0; }
+    .balance .content .con_3 input {
+      padding-left: 1.0625rem;
+      font-size: 0.6875rem; }
+.balance .but {
+  width: 20rem;
+  padding-top: 0.875rem;
+  text-align: center; }
+  .balance .but input {
+    width: 18.5rem;
+    height: 1.9375rem;
+    font-size: 0.875rem;
+    line-height: 1.9375rem;
+    background: #fed555;
+    color: white;
+    border-radius: 0.1875rem; }
+.balance .mtk {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  display: none; }
+  .balance .mtk .cg {
+    border-radius: 0.625rem;
+    position: absolute;
+    top: 10.6875rem;
+    left: 2.96875rem;
+    background: white;
+    width: 14.0625rem;
+    height: 7.625rem; }
+    .balance .mtk .cg .p1 {
+      padding-top: 2.75rem;
+      font-size: 0.8125rem;
+      text-align: center; }
+    .balance .mtk .cg .tiao {
+      position: absolute;
+      bottom: 0;
+      width: 14.0625rem;
+      height: 2.0625rem;
+      line-height: 2.0625rem;
+      background: #fed555;
+      color: white;
+      text-align: center;
+      border-bottom-left-radius: 0.625rem;
+      border-bottom-right-radius: 0.625rem; }
+
+/*# sourceMappingURL=details.css.map */

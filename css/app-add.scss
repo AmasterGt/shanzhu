@@ -1,0 +1,175 @@
+@function rem($px) {
+  @return $px / 32 + rem
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #f5f5f5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    -webkit-flex-direction: column;
+}
+header{
+  height: rem(75);
+  width: 100%;
+  background: #ffac2c;
+  text-align: center;
+  position: relative;
+  #hd_fh{
+    font-size: rem(30);
+    color: #fff;
+    position: absolute;
+    left: rem(10);
+    top:rem(23);
+  }
+}
+
+#title {
+  font-size: rem(30);
+  line-height: rem(75);
+  color: #fff;
+}
+#content{
+    width: 100%;
+    height: 100%;
+    -webkit-flex-grow: 1;
+//  overflow: auto;
+    .conte-head{
+        width: 100%;
+        height:rem(140);
+        background: #fa6e33;
+        display: flex;
+        .head-left{
+            width:rem(160);
+            height: rem(100);
+            padding: rem(20) rem(0);
+            margin-left: rem(76);
+            img{
+                width: 100%;
+            }
+        }
+        .head-right{
+            -webkit-flex-grow: 1;
+            p{
+                text-align:center; 
+                &:nth-child(1){
+                    margin-top: rem(28);
+                    color: #fbfdb5;
+                    font-size: rem(28);
+                }
+                &:nth-child(2){
+                    margin-top: rem(19);
+                    font-size: rem(26);
+                    color: #fbfdb5;
+                }
+            }
+        }
+    }
+    .conte-ifmt{
+        color: #a1a1a1;
+        font-size: rem(24);
+        border-bottom: 1px solid #ebebeb;
+        padding:rem(0) rem(26) rem(0) rem(37);
+        height: rem(68);
+        line-height: rem(68);
+    }
+    .conte-ying{
+        width: 100%;
+        background: #fff;
+        p{
+            display: flex;
+            border-bottom: 1px solid #ebebeb;
+            height: rem(76);
+            line-height: rem(76);
+            font-size: rem(25);
+            padding:rem(0) rem(26) rem(0) rem(37);
+            i{
+                color: #f96159;
+            }
+            span{
+                -webkit-flex-grow: 1;
+                text-align: right;
+                color: #a2a2a2;
+                a{
+                    padding-left: rem(16);
+                }
+            }
+        }
+    }
+    .conte-app{
+        color: #a1a1a1;
+        font-size: rem(24);
+        border-bottom: 1px solid #ebebeb;
+        padding:rem(0) rem(26) rem(0) rem(37);
+        height: rem(68);
+        line-height: rem(68);
+    }
+    .conte-ap{
+        width: 100%;
+        background: #fff;
+        p{
+            display: flex;
+            font-size: rem(25);
+            border-bottom: 1px solid #ebebeb;
+            height: rem(76);
+            line-height: rem(76);
+            padding:rem(0) rem(26) rem(0) rem(37);
+            span{
+                -webkit-flex-grow: 1;
+                text-align: right;
+                color: #a2a2a2;
+                a{
+                    padding-left: rem(16);
+                }
+            }
+        }
+    }
+    .conte-h{
+        color: #a1a1a1;
+        font-size: rem(24);
+        border-bottom: 1px solid #ebebeb;
+        padding:rem(0) rem(26) rem(0) rem(37);
+        height: rem(70);
+        line-height: rem(70);
+        span{
+            font-size: rem(10);
+            color: #ff6c29;
+            padding-left: rem(10);
+        }
+    }
+    .conte-web{
+        width: 100%;
+        background: #fff;
+        p{
+            display: flex;
+            font-size: rem(25);
+            border-bottom: 1px solid #ebebeb;
+            height: rem(76);
+            line-height: rem(76);
+            padding:rem(0) rem(26) rem(0) rem(37);
+            span{
+                -webkit-flex-grow: 1;
+                text-align: right;
+                color: #a2a2a2;
+                a{
+                    padding-left: rem(16);
+                }
+            }
+        }
+    }
+    .conte-btn{
+        padding:rem(28) rem(20);
+        a{
+            display: block;
+            width: 100%;
+            text-align: center;
+            height: rem(60);
+            line-height: rem(60);
+            font-size: rem(26);
+            color: #fff;
+            background: #fed555;
+        }
+    }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <script src=""></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/font/iconfont.css">
+    <title>Title</title>
+</head>
+<body>
+<header>
+    <span id="title">忘记密码</span>
+    <a href="yanzheng.html"><i id="hd_fh" class="iconfont icon-fanhui"></i></a>
+    <!--<span id="zc">注册</span>-->
+</header>
+
+<div class="body">
+    <div class="login">
+        <div class="row clearfix">
+            <span>重置您的登录密码</span>
+        </div>
+        <div class="row clearfix">
+            <i class="iconfont icon-mima ico"></i>
+            <input type="password" placeholder="请输入6-24位的登录密码" id="pas">
+            <input type="text" placeholder="请输入6-24位的登录密码" id="tx">
+            <i class="iconfont icon-caozuo_yanjing" id="eye"></i>
+        </div>
+        <div class="row sub">
+            <input type="submit" value="确定" id="login">
+        </div>
+
+    </div>
+
+       <div class="yz">
+           <div class="yzm">
+               <div id="yz_tit">重置密码成功，请重新登录！</div>
+
+               <div id="btn">
+                   <a href="../index.html"><span>确定</span></a>
+               </div>
+           </div>
+       </div>
+</div>
+
+</body>
+<script src="../js/fontSize.js"></script>
+<script>
+    var tx = document.getElementById("tx");
+    var pas = document.getElementById("pas");
+    var eye = document.getElementById("eye");
+    var isShow = false;
+    eye.onclick = function () {
+        if (isShow) {
+            shows()
+            isShow=!isShow
+            console.log("显示密码")
+        } else {
+            hides()
+            isShow=!isShow
+            console.log("隐藏密码")
+        }
+
+    }
+    function hides() {
+        var val = pas.value;//将password的值传给text
+        tx.value = val;
+        pas.style.display = "none";
+        tx.style.display = "inline-block";
+    }
+    //隐藏password，显示text
+    function shows() {
+        var val = tx.value;//将text的值传给password
+        pas.value = val;
+        pas.style.display = "inline-block";
+        tx.style.display = "none";
+    }
+
+    var yz = document.getElementsByClassName("yz")[0]
+    var oLogin = document.getElementById("login");
+    var oNo=document.getElementById("no")
+    var oYes=document.getElementById("yes")
+    oLogin.onclick = function () {
+        yz.style.display = "block";
+//        tx.style.display = "none";
+    }
+
+</script>
+</html>

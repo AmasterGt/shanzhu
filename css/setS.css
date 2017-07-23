@@ -1,0 +1,81 @@
+html, body {
+  background-color: #f5f5f5; }
+
+* {
+  box-sizing: border-box; }
+
+header {
+  height: 2.34375rem;
+  width: 100%;
+  background: #ffac2c;
+  text-align: center;
+  position: relative; }
+  header #hd_fh {
+    font-size: 0.9375rem;
+    color: #fff;
+    position: absolute;
+    left: 0.3125rem;
+    top: 0.71875rem; }
+
+#title {
+  font-size: 0.9375rem;
+  line-height: 2.34375rem;
+  color: #fff; }
+
+main .ss_ziliao {
+  margin-top: 0.5625rem;
+  display: flex;
+  padding-left: 0.5rem;
+  padding-right: 0.9375rem;
+  background-color: #fff; }
+  main .ss_ziliao .ss_xiang {
+    width: 50%;
+    display: flex;
+    padding-top: 0.8125rem;
+    padding-bottom: 0.625rem; }
+    main .ss_ziliao .ss_xiang > img {
+      width: 2.0625rem;
+      height: 2.0625rem; }
+    main .ss_ziliao .ss_xiang .ss_name {
+      margin-left: 0.5rem; }
+      main .ss_ziliao .ss_xiang .ss_name p:last-of-type {
+        background-color: #ffc801;
+        padding: 0.15625rem 0.3125rem;
+        border-radius: 0.3125rem;
+        color: #fff; }
+  main .ss_ziliao .ss_wanshan {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
+    main .ss_ziliao .ss_wanshan p span {
+      color: #ffa721;
+      font-size: 0.8125rem;
+      margin-right: 0.6875rem; }
+    main .ss_ziliao .ss_wanshan p i {
+      color: #dfdfdf; }
+main .ss_xiugai {
+  margin-top: 1.0625rem;
+  background-color: #fff; }
+  main .ss_xiugai ul li {
+    border-bottom: 1px solid #ccc;
+    padding-left: 1.0625rem;
+    padding-right: 0.9375rem;
+    height: 2.375rem;
+    line-height: 2.375rem; }
+    main .ss_xiugai ul li a {
+      display: flex;
+      justify-content: space-between;
+      height: 100%;
+      width: 100%; }
+    main .ss_xiugai ul li i {
+      color: #dfdfdf;
+      line-height: 2.375rem; }
+main .ss_tuichu {
+  margin-top: 0.9375rem;
+  background-color: #fff;
+  line-height: 2.3125rem; }
+  main .ss_tuichu p {
+    text-align: center; }
+
+/*# sourceMappingURL=setS.css.map */

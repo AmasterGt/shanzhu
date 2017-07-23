@@ -1,0 +1,184 @@
+@function rem($px) {
+  @return $px / 32 + rem
+}
+*{
+    box-sizing: border-box;
+}
+body,html{
+    background: #f5f5f5;
+    width:100%;
+    height: 100%;
+    display: flex;
+    -webkit-flex-direction: column;
+}
+header {
+  height: rem(75);
+  width: 100%;
+  background: #ffac2c;
+  text-align: center;
+  position: relative;
+  #hd_fh{
+    font-size: rem(30);
+    color: #fff;
+    position: absolute;
+    left: rem(10);
+    top:rem(23);
+  }
+  #hd_app{
+    position: absolute;
+    right: rem(10);
+    top:rem(23);
+    font-size: rem(24);
+    color: #fff;
+  }
+}
+
+#title {
+  font-size: rem(30);
+  line-height: rem(75);
+  color: #fff;
+}
+#content{
+    width: 100%;
+    height: 100%;
+    -webkit-flex-grow: 1;
+    overflow: auto;
+    .conte-head{
+        dl{
+            background: #fff;
+            width: 100%;
+            padding:rem(38) rem(36);
+            dt{
+                float: left;
+                width: rem(110);
+                height: rem(110);
+                img{
+                    width: 100%;
+                }
+            }
+            dd{
+                float: left;
+                margin-left: rem(32);
+                p{
+                    &:nth-child(1){
+                        height: rem(70);
+                        line-height: rem(70);
+                        font-size: rem(34);
+                        color: #ff4b00;
+                        span{
+                            font-size: rem(22);
+                            color: #585858;
+                        }
+                    }
+                    &:nth-child(2){
+                        font-size: rem(22);
+                        height: rem(36);
+                        line-height: rem(36);
+                        color: #777777;
+                    }
+                }
+            }
+        }
+        .head-bottom{
+            padding:rem(14) rem(28);
+            p{
+                height: rem(60);
+                line-height: rem(60);
+                color: #ababab;
+                font-size: rem(22);
+                span{
+                    color: #000;
+                }
+                &:nth-child(4){
+                    color: #fe7234;
+                }
+                &:nth-child(5){
+                    color: #fe7234;
+                    span{
+                        color: #fe7234;
+                        margin-left: rem(95);
+                    }
+                }
+            }
+        }
+    }
+    .conte-cont{
+        border-top:1px solid #d8d8d8;
+        border-bottom:1px solid #d8d8d8;
+        dl{
+            background: #fff;
+            width: 100%;
+            padding:rem(38) rem(36);
+            dt{
+                float: left;
+                width: rem(110);
+                height: rem(110);
+                img{
+                    width: 100%;
+                }
+            }
+            dd{
+                float: left;
+                margin-left: rem(32);
+                p{
+                    &:nth-child(1){
+                        height: rem(70);
+                        line-height: rem(70);
+                        font-size: rem(34);
+                        color: #ff4b00;
+                        span{
+                            font-size: rem(22);
+                            color: #585858;
+                        }
+                    }
+                    &:nth-child(2){
+                        font-size: rem(22);
+                        height: rem(36);
+                        line-height: rem(36);
+                        color: #777777;
+                    }
+                }
+            }
+        }
+    }
+    .conte-foot{
+        margin-top: rem(20);
+        border-top:1px solid #d8d8d8;
+        border-bottom:1px solid #d8d8d8;
+        dl{
+            background: #fff;
+            width: 100%;
+            padding:rem(38) rem(36);
+            dt{
+                float: left;
+                width: rem(110);
+                height: rem(110);
+                img{
+                    width: 100%;
+                }
+            }
+            dd{
+                float: left;
+                margin-left: rem(32);
+                p{
+                    &:nth-child(1){
+                        height: rem(70);
+                        line-height: rem(70);
+                        font-size: rem(34);
+                        color: #ff4b00;
+                        span{
+                            font-size: rem(22);
+                            color: #585858;
+                        }
+                    }
+                    &:nth-child(2){
+                        font-size: rem(22);
+                        height: rem(36);
+                        line-height: rem(36);
+                        color: #777777;
+                    }
+                }
+            }
+        }
+    }
+}

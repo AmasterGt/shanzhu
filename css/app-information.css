@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box; }
+
+body, html {
+  background: #f5f5f5;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -webkit-flex-direction: column; }
+
+header {
+  height: 2.34375rem;
+  width: 100%;
+  background: #ffac2c;
+  text-align: center;
+  position: relative; }
+  header #hd_fh {
+    font-size: 0.9375rem;
+    color: #fff;
+    position: absolute;
+    left: 0.3125rem;
+    top: 0.71875rem; }
+  header #hd_app {
+    position: absolute;
+    right: 0.3125rem;
+    top: 0.71875rem;
+    font-size: 0.75rem;
+    color: #fff; }
+
+#title {
+  font-size: 0.9375rem;
+  line-height: 2.34375rem;
+  color: #fff; }
+
+#content {
+  width: 100%;
+  height: 100%;
+  -webkit-flex-grow: 1;
+  overflow: auto; }
+  #content .conte-head dl {
+    background: #fff;
+    width: 100%;
+    padding: 1.1875rem 1.125rem; }
+    #content .conte-head dl dt {
+      float: left;
+      width: 3.4375rem;
+      height: 3.4375rem; }
+      #content .conte-head dl dt img {
+        width: 100%; }
+    #content .conte-head dl dd {
+      float: left;
+      margin-left: 1rem; }
+      #content .conte-head dl dd p:nth-child(1) {
+        height: 2.1875rem;
+        line-height: 2.1875rem;
+        font-size: 1.0625rem;
+        color: #ff4b00; }
+        #content .conte-head dl dd p:nth-child(1) span {
+          font-size: 0.6875rem;
+          color: #585858; }
+      #content .conte-head dl dd p:nth-child(2) {
+        font-size: 0.6875rem;
+        height: 1.125rem;
+        line-height: 1.125rem;
+        color: #777777; }
+  #content .conte-head .head-bottom {
+    padding: 0.4375rem 0.875rem; }
+    #content .conte-head .head-bottom p {
+      height: 1.875rem;
+      line-height: 1.875rem;
+      color: #ababab;
+      font-size: 0.6875rem; }
+      #content .conte-head .head-bottom p span {
+        color: #000; }
+      #content .conte-head .head-bottom p:nth-child(4) {
+        color: #fe7234; }
+      #content .conte-head .head-bottom p:nth-child(5) {
+        color: #fe7234; }
+        #content .conte-head .head-bottom p:nth-child(5) span {
+          color: #fe7234;
+          margin-left: 2.96875rem; }
+  #content .conte-cont {
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8; }
+    #content .conte-cont dl {
+      background: #fff;
+      width: 100%;
+      padding: 1.1875rem 1.125rem; }
+      #content .conte-cont dl dt {
+        float: left;
+        width: 3.4375rem;
+        height: 3.4375rem; }
+        #content .conte-cont dl dt img {
+          width: 100%; }
+      #content .conte-cont dl dd {
+        float: left;
+        margin-left: 1rem; }
+        #content .conte-cont dl dd p:nth-child(1) {
+          height: 2.1875rem;
+          line-height: 2.1875rem;
+          font-size: 1.0625rem;
+          color: #ff4b00; }
+          #content .conte-cont dl dd p:nth-child(1) span {
+            font-size: 0.6875rem;
+            color: #585858; }
+        #content .conte-cont dl dd p:nth-child(2) {
+          font-size: 0.6875rem;
+          height: 1.125rem;
+          line-height: 1.125rem;
+          color: #777777; }
+  #content .conte-foot {
+    margin-top: 0.625rem;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8; }
+    #content .conte-foot dl {
+      background: #fff;
+      width: 100%;
+      padding: 1.1875rem 1.125rem; }
+      #content .conte-foot dl dt {
+        float: left;
+        width: 3.4375rem;
+        height: 3.4375rem; }
+        #content .conte-foot dl dt img {
+          width: 100%; }
+      #content .conte-foot dl dd {
+        float: left;
+        margin-left: 1rem; }
+        #content .conte-foot dl dd p:nth-child(1) {
+          height: 2.1875rem;
+          line-height: 2.1875rem;
+          font-size: 1.0625rem;
+          color: #ff4b00; }
+          #content .conte-foot dl dd p:nth-child(1) span {
+            font-size: 0.6875rem;
+            color: #585858; }
+        #content .conte-foot dl dd p:nth-child(2) {
+          font-size: 0.6875rem;
+          height: 1.125rem;
+          line-height: 1.125rem;
+          color: #777777; }
+
+/*# sourceMappingURL=app-information.css.map */

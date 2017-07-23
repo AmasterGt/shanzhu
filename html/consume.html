@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/consume.css">
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+    <!--<script src="../js/zepto.min.js"></script>-->
+    <script src="../js/angular.min.js"></script>
+    <script src="../js/consume.js"></script>
+</head>
+<body ng-controller="myCtrl">
+
+<header>
+    <p id="title" ng-click="alert()" ng-model="flag">消息详情 <span class="fa fa-caret-down"></span></p>
+    <a href="account.html"><i id="hd_fh" class="fa fa-chevron-left"></i></a>
+</header>
+<p class="title_p">
+    2016年 7月15
+</p>
+<div class="top">
+    <ul>
+        <li ng-repeat="i in data.top">
+            <div ng-style="{backgroundColor:i.bgcolor}">
+                {{i.icon}}
+            </div>
+            <div>
+                <p>
+                    <span ng-style="{borderColor:i.colorbd,color:i.colorbd}">{{i.game}}</span>
+                    <span>&nbsp;{{i.how}}量充值</span>
+                </p>
+                <p>{{i.data}}</p>
+            </div>
+            <div ng-style="{color:i.color}">
+                {{i.msg}}
+            </div>
+        </li>
+    </ul>
+</div>
+<p class="title_p">
+    2016年 7月14
+</p>
+<div class="top">
+    <ul>
+        <li ng-repeat="i in data.center">
+            <div ng-style="{backgroundColor:i.bgcolor}">
+                {{i.icon}}
+            </div>
+            <div>
+                <p>
+                    <span ng-style="{borderColor:i.colorbd,color:i.colorbd}">{{i.game}}</span>
+                    <span>&nbsp;{{i.how}}量充值</span>
+                </p>
+                <p>{{i.data}}</p>
+            </div>
+            <div ng-style="{color:i.color}">
+                {{i.msg}}
+            </div>
+        </li>
+    </ul>
+</div>
+<p class="title_p">
+    2016年 7.13
+</p>
+<div class="top">
+    <ul>
+        <li ng-repeat="i in data.bottom">
+            <div ng-style="{backgroundColor:i.bgcolor}">
+                {{i.icon}}
+            </div>
+            <div>
+                <p>
+                    <span ng-style="{borderColor:i.colorbd,color:i.colorbd}">{{i.game}}</span>
+                    <span>&nbsp;{{i.how}}量充值</span>
+                </p>
+                <p>{{i.data}}</p>
+            </div>
+            <div ng-style="{color:i.color}">
+                {{i.msg}}
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="zhezhao" ng-style="{display:sss}">
+    <div class="box">
+        <div class="box_s">
+            <p class="shou_1">全部账户</p>
+        </div>
+        <div class="box_z">
+            <span class="s_1"></span>
+            <span class="s_2">应用</span>
+            <span class="s_3"></span>
+        </div>
+        <div class="box_x">
+            <p class="shou_2">天天消消乐</p>
+            <p class="shou_3">大话西游</p>
+            <p class="shou_4">王者荣耀</p>
+        </div>
+    </div>
+</div>
+<script src="../js/fontSize.js"></script>
+
+</body>
+</html>

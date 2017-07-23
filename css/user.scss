@@ -1,0 +1,149 @@
+@function rem($px) {
+  @return $px / 32 + rem
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.body {
+  width: 100vw;
+  height: 100vh;
+  //min-height: 100vh;
+  background: #f5f5f5;
+  .user {
+    height: rem(307);
+    padding-top: rem(85);
+    background: url("../images/user_bg.png") no-repeat center;
+    background-size: 100vw;
+    #tx {
+      width: rem(165);
+      display: block;
+      margin: 0 auto;
+    }
+    .name {
+      text-align: center;
+      font-size: rem(16);
+      margin-top: rem(26);
+      span {
+        color: #fff;
+        line-height: rem(34);
+        i {
+          font-size: rem(20);
+          line-height: rem(34);
+        }
+
+      }
+      span:last-child {
+        background: #ffcd00;
+        padding: 0 rem(10);
+        border-radius: rem(10);
+      }
+    }
+
+  }
+
+  .box {
+    border: 1px solid #c0c0c0;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: rem(30);
+    background: #fff;
+    .row {
+      padding-top: rem(30);
+      div {
+        p {
+          font-size: rem(20);
+          line-height: 1.5;
+          color: #a9a9a9;
+        }
+        span {
+          font-size: rem(18);
+          line-height: 1.5;
+          color: #a9a9a9;
+          height: 1.5rem;
+          vertical-align: bottom;
+          b {
+            font-size: rem(58);
+            color: #f95b06;
+            vertical-align: bottom;
+          }
+        }
+        img {
+          width: rem(330);
+        }
+      }
+      div:nth-child(1) {
+        padding-left: rem(30);
+        float: left;
+      }
+      div:nth-child(2) {
+        float: right;
+      }
+    }
+    ul {
+      padding-left: rem(30);
+      li {
+        width: 100%;
+        .ico_left {
+          width: 10%;
+          float: left;
+          text-align: center;
+          img {
+            width: rem(44);
+            margin: rem(16) 0;
+          }
+        }
+        .ico_right {
+          height: rem(76);
+          width: 90%;
+         
+          float: right;
+          border-bottom: 1px solid #c0c0c0;
+          .ice_r_l {
+            padding-left: rem(20);
+            line-height: rem(76);
+          }
+          .ice_r_r {
+            float: right;
+            line-height: rem(76);
+            b {
+              font-weight: normal;
+              color: #f9590f;
+            }
+            i {
+              line-height: rem(76);
+            }
+          }
+        }
+      }
+      li:last-child {
+        .ico_right {
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+  .box:nth-child(2) {
+    border-top: 0;
+    //background: red;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

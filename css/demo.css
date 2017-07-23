@@ -1,0 +1,17 @@
+header {
+  height: 2.34375rem;
+  width: 100%;
+  background: #ffac2c;
+  text-align: center;
+  position: relative; }
+  header #hd_fh {
+    font-size: 0.9375rem;
+    color: #fff;
+    position: absolute;
+    left: 0.3125rem;
+    top: 0.71875rem; }
+
+#title {
+  font-size: 0.9375rem;
+  line-height: 2.34375rem;
+  color: #fff; }
